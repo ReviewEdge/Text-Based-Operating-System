@@ -159,8 +159,6 @@ def send_email():
 def read_email():
     global has_email
 
-    print(has_email) #delete
-
     if logged_in and has_email:
         email = global_email_address
         password = global_email_password
